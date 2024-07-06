@@ -1,0 +1,120 @@
+body{
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+  /* color: black; */
+}
+
+.card{
+  /* border: 1px solid red; */
+  height: 80vh;
+  width: 70vw;
+  max-width: 400px;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #F5F5F5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img{
+  width: 100%;  /* Adjust width as needed */
+  height: 25vh;  /* Adjust height as needed */
+  object-fit: cover; 
+  /* background-size: cover; */
+  display: block;
+  /* background-position: center center; */
+  /* object-position: 50% 50%; */
+  /* transform: scale(1.7); */
+}
+.card h1{
+  font-weight: 700;
+  /* font-size: 1.65rem; */
+  color: #2B283A;
+  margin-bottom: 0px;
+}
+.card .profile p{
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color:#F47D27 ;
+}
+.card a{
+  text-decoration: none;
+  color: #4A4E74;
+  margin-top: 0px;
+}
+.buttons{
+  /* margin: 1rem; */
+  width: 80%;
+  margin:1rem auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.email{
+  border: 1px solid #D1D5DB;
+  /* padding: 0.5rem 1rem; */
+  border-radius: 5px;
+}
+.card .linkedIn{
+  color: white;
+  background-color: #297FE5;
+  
+  border-radius: 5px;
+}
+.buttons a{
+  /* padding: 1rem; */
+
+  width: 30%;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about, .interests{
+  width: 80%;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+  text-align: left;
+  /* padding: 0rem 3rem; */
+  /* color: red; */
+}
+.about h2, .interests h2{
+  margin-bottom: 0px;
+  font-size: 1.25rem;
+  color: #2B283A;
+}
+.about p, .interests p{
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #4A4E74;
+}
+.interests{
+  /* margin-bottom: 2rem; */
+}
+
+footer{
+  /* border: 1px solid red; */
+  /* position: absolute; */
+  background-color: #D5D4D8;
+  padding: 0.5rem;
+  margin-top: auto;
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  /* bottom: 0px; */
+}
+footer i{
+  color: #918E9B;
+}
